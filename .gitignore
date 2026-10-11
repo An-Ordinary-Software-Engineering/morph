@@ -1,0 +1,42 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/bin/
+/dist/
+morph
+
+# Test binaries and coverage
+*.test
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace
+go.work
+go.work.sum
+
+# Vendored dependencies (uncomment if not committing vendor/)
+# vendor/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Generated SQL scripts
+*.sql.out
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
